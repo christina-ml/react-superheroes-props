@@ -4,8 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 id="title">Marvel Superheroes!</h1>
-      <button>Add a Superhero!</button>
       <div id="heroesContainer">
         <HeroList />
       </div>
