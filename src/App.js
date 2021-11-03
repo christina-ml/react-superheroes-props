@@ -1,6 +1,8 @@
 import superHeroes from './data/superHeroes';
 import SpiderMan from './components/SpiderMan';
 import IronMan from './components/IronMan';
+
+import HeroList from './components/HeroList';
 import './App.css';
 
 function App() {
@@ -9,8 +11,8 @@ function App() {
       <h1 id="title">Marvel Superheroes!</h1>
       <button>Add a Superhero!</button>
       <div id="heroesContainer">
-        <SpiderMan spiderMan={superHeroes[0]}/>
-        <IronMan ironMan={superHeroes[6]}/>
+        {/* <SpiderMan spiderMan={superHeroes[0]}/>
+        <IronMan ironMan={superHeroes[6]}/> */}
       </div>
     </div>
   );
