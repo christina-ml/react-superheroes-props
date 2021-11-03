@@ -1,4 +1,5 @@
 import { Component } from "react";
+import HeroCard from "./HeroCard";
 
 class HeroList extends Component{
     constructor(){

@@ -6,7 +6,15 @@ class HeroCard extends Component{
     }
 
     render(){
-        return null;
+        const { name, description, thumbnail } = this.props.hero;
+
+        return(
+            <div className="heroCard">
+                <h2 id="heroName">{name}</h2>
+                <p id="description">{description}</p>
+                <img src={thumbnail} alt={name}></img>
+            </div>
+        )
     }
 }
 
